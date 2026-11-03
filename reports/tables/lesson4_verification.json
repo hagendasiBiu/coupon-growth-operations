@@ -1,0 +1,11 @@
+{
+  "raw_sha256": "85ed49fd9873abebaef01a608defed667a3a2325e5c967fa25f4e9dc4b83f986",
+  "sql_export_sha256": "920b8a6b935d8001f42041bc14ada840260d7f3f03f0a853d0828bb320a7789e",
+  "group_rows": 5625,
+  "dimensions": 6,
+  "all_group_counts_match_original_csv": true,
+  "each_dimension_receipts": 1053282,
+  "each_dimension_redemptions": 64395,
+  "sql_script": "sql/05_lesson4_behavior.sql",
+  "status": "passed"
+}

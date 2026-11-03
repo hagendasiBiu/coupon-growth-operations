@@ -1,0 +1,14 @@
+{
+  "asof": "2016-05-01",
+  "may_users": 148439,
+  "may_receipts": 215348,
+  "may_redemptions": 21580,
+  "all_user_assignments_and_outcomes_match": true,
+  "all_summary_fields_match": true,
+  "all_sensitivity_configs_match": true,
+  "rule_version": "v1",
+  "status": "passed",
+  "feature_csv_sha256": "ad992395d0cb3cb220dde8977a55665c0b03c86173a118241eb8843ec60e483f",
+  "sql_summary_sha256": "9aff6035220908dc1cd3ae6fb28af6424667da810f484581f647d0e6107d5b7b",
+  "scope": "May observed receipt users only; rules fixed from pre-May features; response association not causal uplift."
+}

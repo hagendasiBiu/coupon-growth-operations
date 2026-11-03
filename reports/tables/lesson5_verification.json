@@ -1,0 +1,30 @@
+{
+  "asof": "2016-05-01",
+  "history_users": 392743,
+  "history_receipts": 746969,
+  "known_redemptions": 40398,
+  "mature_receipts": 667753,
+  "mature_redemptions_15d": 32472,
+  "users_without_mature_receipts": 45596,
+  "latest_history_receipt": "2016-04-30",
+  "latest_known_redemption": "2016-04-30",
+  "latest_mature_receipt": "2016-04-15",
+  "may_coverage": [
+    {
+      "has_history": 0,
+      "may_receipts": 115181,
+      "may_users": 87620
+    },
+    {
+      "has_history": 1,
+      "may_receipts": 100167,
+      "may_users": 60819
+    }
+  ],
+  "all_users_all_fields_match_original_csv": true,
+  "future_information_removal_invariance": "passed",
+  "raw_sha256": "85ed49fd9873abebaef01a608defed667a3a2325e5c967fa25f4e9dc4b83f986",
+  "sql_export_sha256": "c6103ed0ba979bd63148d91e8d1a2b89b946456d5c40d93b5f9bf80d1a35b701",
+  "limitation": "事件日期模拟可知信息，无法验证日志延迟；固定05-01画像用于5月样本，不是逐日更新画像。",
+  "status": "passed"
+}

@@ -1,0 +1,7 @@
+﻿dimension,bucket,receipts,redemptions,rate_pct
+distance_band,01_code_0,348179,40281,11.569
+distance_band,02_code_1,143871,7212,5.0128
+distance_band,03_code_2_3,136223,4356,3.1977
+distance_band,04_code_4_5,71552,1721,2.4052
+distance_band,05_code_6_10,247454,3490,1.4104
+distance_band,07_unknown,106003,7335,6.9196

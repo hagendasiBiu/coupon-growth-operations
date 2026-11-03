@@ -1,0 +1,36 @@
+{
+  "feature_asof": "2016-05-01T00:00:00",
+  "history_start": "2016-01-01",
+  "receipt_rule": "received_date < 2016-05-01",
+  "redemption_rule": "consumed_date < 2016-05-01",
+  "maturity_rule": "received_date + 15 days < 2016-05-01",
+  "historical_model_fields": [
+    "hist_receipts",
+    "hist_known_redemptions",
+    "hist_mature_receipts",
+    "hist_mature_redemptions_15d",
+    "hist_mature_redemption_rate",
+    "recent7_receipts",
+    "recent30_receipts",
+    "hist_merchant_count",
+    "hist_mean_distance_code",
+    "days_since_last_receipt",
+    "days_since_last_known_redemption"
+  ],
+  "cold_start_flag": "has_history",
+  "target_only_never_use_as_feature": [
+    "target_redeemed_15d"
+  ],
+  "audit_not_model_fields": [
+    "feature_asof",
+    "last_receipt_date",
+    "last_known_redemption_date",
+    "latest_mature_received_date"
+  ],
+  "limitations": [
+    "Historical records start in January 2016; absence of history is not proof of a new platform user.",
+    "Event-date cutoff cannot establish log arrival latency.",
+    "Frozen May 1 profile; not daily rolling production features."
+  ],
+  "verification": "reports/tables/lesson5_verification.json"
+}

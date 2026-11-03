@@ -1,0 +1,15 @@
+{
+  "download_date": "2026-10-26",
+  "original_source": "https://tianchi.aliyun.com/competition/entrance/231593/information",
+  "download_source": "https://api.github.com/repos/zhYao07/O2O-Coupon-Forecast/git/blobs/b8dfd9a8cdb5c3f22234ce710a90aea52b788861",
+  "mirror_repository": "zhYao07/O2O-Coupon-Forecast",
+  "tree_sha": "6a259bde3c61854de8d4bb0a9150675abbe953f7",
+  "files": [
+    {
+      "file": "data\\raw\\o2o\\ccf_offline_stage1_train.csv",
+      "bytes": 71647992,
+      "sha256": "85ed49fd9873abebaef01a608defed667a3a2325e5c967fa25f4e9dc4b83f986"
+    }
+  ],
+  "license_status": "Mirror redistribution license unverified; original Tianchi terms pending; do not redistribute."
+}

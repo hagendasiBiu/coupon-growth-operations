@@ -1,0 +1,4 @@
+﻿split,records,users,first_received,last_received,last_label_observation_day
+train,70804,61416,2016-03-01,2016-04-15,2016-04-30
+validation,53727,42635,2016-05-01,2016-05-15,2016-05-30
+test,90965,76257,2016-06-01,2016-06-15,2016-06-30

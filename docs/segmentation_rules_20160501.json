@@ -1,0 +1,11 @@
+{
+  "asof": "2016-05-01",
+  "rule_version": "v1",
+  "selected_before_reading_may_outcomes": true,
+  "sufficient_history_min_mature_receipts": 3,
+  "high_recent_coupon_activity_min_receipts_30d": 2,
+  "high_historical_response_min_mature_redemption_rate": 0.10,
+  "priority": ["no_observed_history", "insufficient_mature_history", "four_rule_segments"],
+  "note": "业务启发式阈值，非最优参数或统计显著性边界；不依据5月核销结果调整。",
+  "sensitivity": ["min_mature_receipts=5", "high_rate=0.20", "recent30_receipts=3"]
+}

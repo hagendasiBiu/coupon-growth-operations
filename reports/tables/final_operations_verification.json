@@ -1,0 +1,267 @@
+{
+  "policy": {
+    "candidate_users": 76257,
+    "population_first_coupon_redemptions": 4484,
+    "capacity": 10000,
+    "policy_observed_redemptions": 1127,
+    "random_expected_redemptions": 588.0115923784047,
+    "policy_observed_rate": 0.1127,
+    "random_expected_rate": 0.05880115923784046,
+    "coverage_difference": 538.9884076215953,
+    "relative_coverage_difference": 0.9166288804638714,
+    "random_draws": 200,
+    "random_draw_mean": 587.38,
+    "random_draw_p025": 545.0,
+    "random_draw_p975": 633.025,
+    "label_flip_selection_invariance": "passed",
+    "causal_claim": false,
+    "new_campaign_effect_identified": false
+  },
+  "allocation": [
+    {
+      "segment": "00_no_history",
+      "candidate_users": 30335,
+      "selected_users": 1500,
+      "observed_redemptions": 69
+    },
+    {
+      "segment": "01_sparse_history",
+      "candidate_users": 31989,
+      "selected_users": 1500,
+      "observed_redemptions": 260
+    },
+    {
+      "segment": "10_active_high_response",
+      "candidate_users": 1946,
+      "selected_users": 1946,
+      "observed_redemptions": 398
+    },
+    {
+      "segment": "11_active_low_response",
+      "candidate_users": 3356,
+      "selected_users": 3356,
+      "observed_redemptions": 218
+    },
+    {
+      "segment": "20_less_active_high_response",
+      "candidate_users": 1680,
+      "selected_users": 1680,
+      "observed_redemptions": 181
+    },
+    {
+      "segment": "21_less_active_low_response",
+      "candidate_users": 6951,
+      "selected_users": 18,
+      "observed_redemptions": 1
+    }
+  ],
+  "roi_base": [
+    {
+      "policy": "随机名单期望",
+      "selected_users": 10000,
+      "observed_redemptions_or_expected_coverage": 588.0115923784047,
+      "contact_cost": 0.2,
+      "coupon_cost": 5,
+      "contribution_per_incremental_order": 30,
+      "incremental_share": 0.0,
+      "assumed_marketing_cost": 4940.057961892024,
+      "assumed_incremental_contribution": 0.0,
+      "simulated_incremental_net_profit": -4940.057961892024,
+      "simulated_roi": -1.0,
+      "break_even_incremental_share": 0.2800431162652394,
+      "result_type": "assumption_scenario_not_real_business_roi"
+    },
+    {
+      "policy": "随机名单期望",
+      "selected_users": 10000,
+      "observed_redemptions_or_expected_coverage": 588.0115923784047,
+      "contact_cost": 0.2,
+      "coupon_cost": 5,
+      "contribution_per_incremental_order": 30,
+      "incremental_share": 0.1,
+      "assumed_marketing_cost": 4940.057961892024,
+      "assumed_incremental_contribution": 1764.034777135214,
+      "simulated_incremental_net_profit": -3176.0231847568098,
+      "simulated_roi": -0.6429121296261886,
+      "break_even_incremental_share": 0.2800431162652394,
+      "result_type": "assumption_scenario_not_real_business_roi"
+    },
+    {
+      "policy": "随机名单期望",
+      "selected_users": 10000,
+      "observed_redemptions_or_expected_coverage": 588.0115923784047,
+      "contact_cost": 0.2,
+      "coupon_cost": 5,
+      "contribution_per_incremental_order": 30,
+      "incremental_share": 0.3,
+      "assumed_marketing_cost": 4940.057961892024,
+      "assumed_incremental_contribution": 5292.104331405642,
+      "simulated_incremental_net_profit": 352.04636951361863,
+      "simulated_roi": 0.07126361112143433,
+      "break_even_incremental_share": 0.2800431162652394,
+      "result_type": "assumption_scenario_not_real_business_roi"
+    },
+    {
+      "policy": "随机名单期望",
+      "selected_users": 10000,
+      "observed_redemptions_or_expected_coverage": 588.0115923784047,
+      "contact_cost": 0.2,
+      "coupon_cost": 5,
+      "contribution_per_incremental_order": 30,
+      "incremental_share": 0.5,
+      "assumed_marketing_cost": 4940.057961892024,
+      "assumed_incremental_contribution": 8820.17388567607,
+      "simulated_incremental_net_profit": 3880.1159237840457,
+      "simulated_roi": 0.785439351869057,
+      "break_even_incremental_share": 0.2800431162652394,
+      "result_type": "assumption_scenario_not_real_business_roi"
+    },
+    {
+      "policy": "随机名单期望",
+      "selected_users": 10000,
+      "observed_redemptions_or_expected_coverage": 588.0115923784047,
+      "contact_cost": 0.2,
+      "coupon_cost": 5,
+      "contribution_per_incremental_order": 30,
+      "incremental_share": 1.0,
+      "assumed_marketing_cost": 4940.057961892024,
+      "assumed_incremental_contribution": 17640.34777135214,
+      "simulated_incremental_net_profit": 12700.289809460115,
+      "simulated_roi": 2.570878703738114,
+      "break_even_incremental_share": 0.2800431162652394,
+      "result_type": "assumption_scenario_not_real_business_roi"
+    },
+    {
+      "policy": "固定规则名单",
+      "selected_users": 10000,
+      "observed_redemptions_or_expected_coverage": 1127.0,
+      "contact_cost": 0.2,
+      "coupon_cost": 5,
+      "contribution_per_incremental_order": 30,
+      "incremental_share": 0.0,
+      "assumed_marketing_cost": 7635.0,
+      "assumed_incremental_contribution": 0.0,
+      "simulated_incremental_net_profit": -7635.0,
+      "simulated_roi": -1.0,
+      "break_even_incremental_share": 0.22582076308784382,
+      "result_type": "assumption_scenario_not_real_business_roi"
+    },
+    {
+      "policy": "固定规则名单",
+      "selected_users": 10000,
+      "observed_redemptions_or_expected_coverage": 1127.0,
+      "contact_cost": 0.2,
+      "coupon_cost": 5,
+      "contribution_per_incremental_order": 30,
+      "incremental_share": 0.1,
+      "assumed_marketing_cost": 7635.0,
+      "assumed_incremental_contribution": 3381.0,
+      "simulated_incremental_net_profit": -4254.0,
+      "simulated_roi": -0.5571709233791748,
+      "break_even_incremental_share": 0.22582076308784382,
+      "result_type": "assumption_scenario_not_real_business_roi"
+    },
+    {
+      "policy": "固定规则名单",
+      "selected_users": 10000,
+      "observed_redemptions_or_expected_coverage": 1127.0,
+      "contact_cost": 0.2,
+      "coupon_cost": 5,
+      "contribution_per_incremental_order": 30,
+      "incremental_share": 0.3,
+      "assumed_marketing_cost": 7635.0,
+      "assumed_incremental_contribution": 10142.999999999998,
+      "simulated_incremental_net_profit": 2507.999999999998,
+      "simulated_roi": 0.3284872298624752,
+      "break_even_incremental_share": 0.22582076308784382,
+      "result_type": "assumption_scenario_not_real_business_roi"
+    },
+    {
+      "policy": "固定规则名单",
+      "selected_users": 10000,
+      "observed_redemptions_or_expected_coverage": 1127.0,
+      "contact_cost": 0.2,
+      "coupon_cost": 5,
+      "contribution_per_incremental_order": 30,
+      "incremental_share": 0.5,
+      "assumed_marketing_cost": 7635.0,
+      "assumed_incremental_contribution": 16905.0,
+      "simulated_incremental_net_profit": 9270.0,
+      "simulated_roi": 1.2141453831041258,
+      "break_even_incremental_share": 0.22582076308784382,
+      "result_type": "assumption_scenario_not_real_business_roi"
+    },
+    {
+      "policy": "固定规则名单",
+      "selected_users": 10000,
+      "observed_redemptions_or_expected_coverage": 1127.0,
+      "contact_cost": 0.2,
+      "coupon_cost": 5,
+      "contribution_per_incremental_order": 30,
+      "incremental_share": 1.0,
+      "assumed_marketing_cost": 7635.0,
+      "assumed_incremental_contribution": 33810.0,
+      "simulated_incremental_net_profit": 26175.0,
+      "simulated_roi": 3.4282907662082516,
+      "break_even_incremental_share": 0.22582076308784382,
+      "result_type": "assumption_scenario_not_real_business_roi"
+    }
+  ],
+  "budget_scenario_rows": 270,
+  "email_groups": [
+    {
+      "segment": "Mens E-Mail",
+      "users": 21307,
+      "purchases": 267,
+      "purchase_rate": 0.01253109306800582,
+      "spend_per_user": 1.4226165110057727
+    },
+    {
+      "segment": "No E-Mail",
+      "users": 21306,
+      "purchases": 122,
+      "purchase_rate": 0.005726086548390125,
+      "spend_per_user": 0.6527893551112363
+    },
+    {
+      "segment": "Womens E-Mail",
+      "users": 21387,
+      "purchases": 189,
+      "purchase_rate": 0.008837144059475383,
+      "spend_per_user": 1.0772015710478329
+    }
+  ],
+  "email_effects": [
+    {
+      "treatment": "Mens E-Mail",
+      "control": "No E-Mail",
+      "purchase_ate_pp": 0.6805006519615695,
+      "purchase_ci95_low_pp": 0.5000138215573684,
+      "purchase_ci95_high_pp": 0.8609874823657705,
+      "purchase_p_value": 1.5232235005955427e-13,
+      "spend_ate_usd_per_user": 0.7698271558945368,
+      "spend_bootstrap_ci95_low": 0.4754907961767401,
+      "spend_bootstrap_ci95_high": 1.06617040112912,
+      "status": "primary"
+    },
+    {
+      "treatment": "Womens E-Mail",
+      "control": "No E-Mail",
+      "purchase_ate_pp": 0.3111057511085258,
+      "purchase_ci95_low_pp": 0.14986481930026369,
+      "purchase_ci95_high_pp": 0.47234668291678794,
+      "purchase_p_value": 0.00015710512910668448,
+      "spend_ate_usd_per_user": 0.4244122159365967,
+      "spend_bootstrap_ci95_low": 0.17608345055101998,
+      "spend_bootstrap_ci95_high": 0.6852796995040649,
+      "status": "secondary_exploratory"
+    }
+  ],
+  "max_email_covariate_smd": 0.01365900039927897,
+  "plan_sha256": "f9b754142c263f0fe8a199c74d8bf66e703f46f43ad8df7073962f47273050cb",
+  "source_data_sha256": "dc498b1c509ff50216a970504c2a0f7ac28f43457c2efcac752520f6e7748035",
+  "hillstrom_sha256": "0e5893329d8b93cefecc571777672028290ab69865718020c78c7284f291aece",
+  "status": "passed",
+  "gui_used": false,
+  "mysql_mcp_used": false
+}

@@ -1,0 +1,387 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 294,
+      "sha256": "7d0ffc699aedb931e43bc6ae47877a3076eb146a933f13741ece37a885817535"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "bytes": 1716,
+      "sha256": "d29ebaea3bd6fef2dde6a2fc3c9b14c9cb0b0b51baef84d073eae256e09cbbf2"
+    },
+    {
+      "path": "docs/data_sources.md",
+      "bytes": 1569,
+      "sha256": "fe5a679d3ff79e3172b9b03d99f29115f88ead40c992bf941562396bb97a2b5b"
+    },
+    {
+      "path": "docs/data_sources_initial_notes.md",
+      "bytes": 1580,
+      "sha256": "470d98ba64538842360cc62d87e313c01e2a67760080074f2c890eb8894bedd1"
+    },
+    {
+      "path": "docs/download_validation.json",
+      "bytes": 1303,
+      "sha256": "113e6a3714986d5fc34f3d52e8ea36de1ca6de09076171ea066f17f1230fba2f"
+    },
+    {
+      "path": "docs/feature_contract_20160501.json",
+      "bytes": 1207,
+      "sha256": "d83df494f579c73bbcdbaefbec44838e0fd050ed5f50622d651bde6f1c48e0f9"
+    },
+    {
+      "path": "docs/o2o_download_manifest.json",
+      "bytes": 702,
+      "sha256": "92c2afc20d81755a39a65e5946dfebc7f49f28ee5c28bfe7bbd5cbb0c3a9256d"
+    },
+    {
+      "path": "docs/operations_final_plan.json",
+      "bytes": 1621,
+      "sha256": "f9b754142c263f0fe8a199c74d8bf66e703f46f43ad8df7073962f47273050cb"
+    },
+    {
+      "path": "docs/REPRODUCE.md",
+      "bytes": 2460,
+      "sha256": "fdb62475af87d9de9094bab3be3a527caf0fbbc9503e6168c4eda378187ac892"
+    },
+    {
+      "path": "docs/segmentation_rules_20160501.json",
+      "bytes": 553,
+      "sha256": "ac9fc013ed56cfd2c408b124a05d631d7d25b164c6837aab0d94a6a5b0351941"
+    },
+    {
+      "path": "docs/结果口径与证据.md",
+      "bytes": 2298,
+      "sha256": "c77270e9a75186fc2ccb2a1602bab95bb8247c7519eb759938576b2aba763c72"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4214,
+      "sha256": "b734503e4276c9e2ccadce220e09f9e02d6a8d4b0da5e702e784d7f7b1b1f581"
+    },
+    {
+      "path": "reports/A_B测试方案.md",
+      "bytes": 1768,
+      "sha256": "9d0ead66b5040087d4270ccce64948d4277d18152782c5fd611b412b52ebd16c"
+    },
+    {
+      "path": "reports/figures/final_policy_replay.png",
+      "bytes": 154751,
+      "sha256": "53e645d5f75e20810613b5cbbf1e32ceaab13793bbef1641f9e48a7dc5af8e50"
+    },
+    {
+      "path": "reports/figures/final_roi_scenarios.png",
+      "bytes": 105267,
+      "sha256": "4b516f471aae284b49d48b604f972f17f49c6c075fee6d69b8cc8221913accc3"
+    },
+    {
+      "path": "reports/figures/lesson4_behavior_dashboard.png",
+      "bytes": 244088,
+      "sha256": "377479570ab19c1ab93ccbb8090c89c607ed75405632729755ee712f14b5bf0b"
+    },
+    {
+      "path": "reports/figures/lesson4_discount_band.png",
+      "bytes": 57412,
+      "sha256": "d0d2e226da4857c697804ba599677eed984de375c43a7fbaff0cf28171e1f555"
+    },
+    {
+      "path": "reports/figures/lesson4_distance_band.png",
+      "bytes": 54107,
+      "sha256": "3436890011709b00237910acb15d35f50bd7c9831a37a2f873220cead81ee9f7"
+    },
+    {
+      "path": "reports/figures/lesson4_month.png",
+      "bytes": 59207,
+      "sha256": "0e9fdd6edb417bc9c60865ad5f71f3fa5d8715b5f396072f0377fc599938b6d5"
+    },
+    {
+      "path": "reports/figures/lesson4_weekday.png",
+      "bytes": 51946,
+      "sha256": "122c2858ecdac07b53b91947cfafe85a3ee6d1edda746c4264079ef72a150a2f"
+    },
+    {
+      "path": "reports/figures/lesson6_segmentation_dashboard.png",
+      "bytes": 185801,
+      "sha256": "751375753d01c2d917a6eb1aaa031f4f90ec66093beabd663734a2bd3fda1c12"
+    },
+    {
+      "path": "reports/lesson4_business_findings.md",
+      "bytes": 3647,
+      "sha256": "13180f26e925e714d327a6b92698c26a7278823ef82f6033a8d97710eee92876"
+    },
+    {
+      "path": "reports/lesson6_segmentation_findings.md",
+      "bytes": 2534,
+      "sha256": "0b7c0726ef74ca32b68d2dff7e62cc5445d724d4d929f77a39f6700b25853f00"
+    },
+    {
+      "path": "reports/tables/final_budget_scenarios.csv",
+      "bytes": 45922,
+      "sha256": "f339d09bf510459c0a5e19bee345dcb5dc2289d20d8ea6189585af7f5e177de5"
+    },
+    {
+      "path": "reports/tables/final_email_balance.csv",
+      "bytes": 1069,
+      "sha256": "a28c4c7c4b855f39a8f55047e9d40268960c326fbdd7fd7cae2914bafee30376"
+    },
+    {
+      "path": "reports/tables/final_email_effects.csv",
+      "bytes": 532,
+      "sha256": "a36aa72f9808c1fa48bc442bcd3d6d84c1ee95f3eb25c750a7a8110cffb154d2"
+    },
+    {
+      "path": "reports/tables/final_email_groups.csv",
+      "bytes": 245,
+      "sha256": "5634317dd9fb3dd93013170a079a2b7ad477711b4042cdc1b969ce174271adea"
+    },
+    {
+      "path": "reports/tables/final_operations_verification.json",
+      "bytes": 9789,
+      "sha256": "a0b76f22454a76a4c6b0343db231d28b727f58bed2c92862b896168e637edf1f"
+    },
+    {
+      "path": "reports/tables/final_policy_allocation.csv",
+      "bytes": 287,
+      "sha256": "873d69a8014c91eed86fded09c3afeb6472ce193755f674cfc9e2de7d1134b8e"
+    },
+    {
+      "path": "reports/tables/final_policy_replay.json",
+      "bytes": 613,
+      "sha256": "5a3ad7fc69ba661954de347756feecf57fab8c217f86bc18197ba67f5ba2ebba"
+    },
+    {
+      "path": "reports/tables/final_random_replays.csv",
+      "bytes": 1726,
+      "sha256": "436911b378b5698c77ba7bfe3321bbe5dcfcf5323c0cd8d31b27c0e9bd4321b2"
+    },
+    {
+      "path": "reports/tables/import_verification.csv",
+      "bytes": 122,
+      "sha256": "74df44c301b03af3e071e45c0ff73525ef3a6f1d8ab6abf9c75fa9ad4fabcb94"
+    },
+    {
+      "path": "reports/tables/lesson2_file_audit.json",
+      "bytes": 576,
+      "sha256": "32c32a6c41fff5439a0ab63c79ccc5c8d105917eac5f43f0dd5d89b6f7e41955"
+    },
+    {
+      "path": "reports/tables/lesson2_mysql_verification.csv",
+      "bytes": 151,
+      "sha256": "4d7f82da67b1102509dad4e13406cffaa7324dbefcf74e2f572bab4a94e74b96"
+    },
+    {
+      "path": "reports/tables/lesson3_metrics.csv",
+      "bytes": 248,
+      "sha256": "b2161139ca573f9f5935b1df4441ec0c14dd13a02c45938687c35d39a9d14ecf"
+    },
+    {
+      "path": "reports/tables/lesson3_metrics.json",
+      "bytes": 282,
+      "sha256": "2d13aadc12e55fb95aea3e0f9b96d6eafac83eced3b68bff1efe1e2fdcd07d59"
+    },
+    {
+      "path": "reports/tables/lesson3_mysql_verification.json",
+      "bytes": 333,
+      "sha256": "65b084368f936de3e274538122754d7d3cbdeae4cd024dc31f4b0b87765f79fc"
+    },
+    {
+      "path": "reports/tables/lesson4_behavior_summary.csv",
+      "bytes": 144114,
+      "sha256": "fe67ac1d700beb298fc8a18e6045024f6f189c488d258b04e5003476a33c85d2"
+    },
+    {
+      "path": "reports/tables/lesson4_discount_band.csv",
+      "bytes": 290,
+      "sha256": "3c7aa4cf71025d578219fb332c69c81bf93bebf16bc3332012bfc95155688d46"
+    },
+    {
+      "path": "reports/tables/lesson4_discount_type.csv",
+      "bytes": 136,
+      "sha256": "717c981678d674d4532743f446030ee90f9e35991438d219e6d3d1cccc0be631"
+    },
+    {
+      "path": "reports/tables/lesson4_distance_band.csv",
+      "bytes": 323,
+      "sha256": "96d4cd5a3b23407d2da88aeadbcf29eb7c587666900f4628af1719d465f77cff"
+    },
+    {
+      "path": "reports/tables/lesson4_month.csv",
+      "bytes": 257,
+      "sha256": "ef1f5be2f652718ba3f5d087a62f6b0431ebbef7aebdf3ec0b37119853900ee3"
+    },
+    {
+      "path": "reports/tables/lesson4_verification.json",
+      "bytes": 421,
+      "sha256": "1bc2eba310df244f37a0edf4a66d12651f8879ca653a341eaa9e624ff4a7ec24"
+    },
+    {
+      "path": "reports/tables/lesson4_weekday.csv",
+      "bytes": 262,
+      "sha256": "9889889f28f84bea771b5c8c92debeaab54409f32b7c5b0cd98a8a5d085a49c8"
+    },
+    {
+      "path": "reports/tables/lesson5_may_coverage.csv",
+      "bytes": 71,
+      "sha256": "b6585f064321206a63253d2b13f6ef5cc827458157580aee2e023125714371bf"
+    },
+    {
+      "path": "reports/tables/lesson5_verification.json",
+      "bytes": 1026,
+      "sha256": "c86cda728bf3b5c9b496f8590135b49edb25ca43ca783cd6ab3121a33c5ed853"
+    },
+    {
+      "path": "reports/tables/lesson6_history_population.csv",
+      "bytes": 181,
+      "sha256": "aa367f6c572938bef32f1da84d306a7a812d291c7588dedec9d463de4b272e1f"
+    },
+    {
+      "path": "reports/tables/lesson6_rule_sensitivity.csv",
+      "bytes": 258,
+      "sha256": "b48ccdcbee884769a1cfe623e02e8d8be6e5f170e6371f922835302905774367"
+    },
+    {
+      "path": "reports/tables/lesson6_segment_summary.csv",
+      "bytes": 826,
+      "sha256": "e993ba04055cd206f3f8977ff155ddf74c41a3b1f2d28b4bd74665f9f0089b04"
+    },
+    {
+      "path": "reports/tables/lesson6_verification.json",
+      "bytes": 596,
+      "sha256": "629ead93c84408a84fd17c41deee23b48ea8c81d9e19543e0287c4d732a02ecc"
+    },
+    {
+      "path": "reports/tables/lesson7_data_verification.json",
+      "bytes": 1656,
+      "sha256": "886807ad03a136afb0d78d256d4419b4a9442139cea932fdbd40b1923dabbf6e"
+    },
+    {
+      "path": "reports/tables/lesson7_time_split.csv",
+      "bytes": 240,
+      "sha256": "2c9812fb248ebe85fbf230aa0c8d9357abc4c6e126fef60ec156d98958c1cb55"
+    },
+    {
+      "path": "reports/独立邮件实验附录.md",
+      "bytes": 1319,
+      "sha256": "e829ae1b3cbd40d2adc5ff333a23d3b33fee517345d9efba29080027fbbdacfd"
+    },
+    {
+      "path": "reports/运营版_最终报告.html",
+      "bytes": 679085,
+      "sha256": "9de36560249e4dd4c5282decfbbc5970bd283e20e3b19c2ebb5f5d8e5e142032"
+    },
+    {
+      "path": "reports/运营版_最终报告.md",
+      "bytes": 6703,
+      "sha256": "d442769060548478f466bd2fd8c270bfbecf8cc4e915fb026eb8f63d41592e31"
+    },
+    {
+      "path": "requirements-operations.txt",
+      "bytes": 80,
+      "sha256": "53beb78d8301f9e3dd7a109cb29a8b414892182cd3443b99475f4e75e3a82118"
+    },
+    {
+      "path": "scripts/check_public_results.py",
+      "bytes": 1507,
+      "sha256": "66be2bc3153c75ef94584cb27082ab5af05b6219278c78d0fddb6276300a867f"
+    },
+    {
+      "path": "sql/01_import_raw_data.sql",
+      "bytes": 1889,
+      "sha256": "1e1b24ba2adc208b182112242bc1eeb4a64bff827ce25040a209b1620327eac0"
+    },
+    {
+      "path": "sql/02_lesson1_check.sql",
+      "bytes": 1103,
+      "sha256": "307f8c412a9c67bfa0e44ee1ebdb935fe73e1bc129b32ca2d01425d481ca546c"
+    },
+    {
+      "path": "sql/03_lesson2_cleaning.sql",
+      "bytes": 5584,
+      "sha256": "7c5606eda658d373dfbc01aca9a2f0099e9f1dfa548582fcaa116ecb18f54940"
+    },
+    {
+      "path": "sql/04_lesson3_metrics.sql",
+      "bytes": 1798,
+      "sha256": "7be23e483c2ff548d649cd76e8e8fb03276ed4aab17ce8d2fa6fae6694f3e253"
+    },
+    {
+      "path": "sql/05_lesson4_behavior.sql",
+      "bytes": 3406,
+      "sha256": "ee8c73441f705592b3c5da833a803e6a035c5cc8b5522dd74582d2394e9d735c"
+    },
+    {
+      "path": "sql/05b_lesson4_export_once.sql",
+      "bytes": 472,
+      "sha256": "8b16e55d689305ca6e341fa7093797ba2bf60cbda31f8a548c74234dc7e11b86"
+    },
+    {
+      "path": "sql/06_lesson5_historical_features.sql",
+      "bytes": 4746,
+      "sha256": "20a33e496f6cc9b8b7efe62054138dd2dd63ae4ff7473736f7f91f5f6608d853"
+    },
+    {
+      "path": "sql/06b_lesson5_export_once.sql",
+      "bytes": 1002,
+      "sha256": "de9f370c05a3cbc005d6053b5b3edb74483632549cb633f99792e80efe693bb5"
+    },
+    {
+      "path": "sql/06c_lesson5_precision_repair.sql",
+      "bytes": 1130,
+      "sha256": "db1c1bdb0a057293b3ebf8b8a745b3c782a99e492e95c5306270fa80127dfc93"
+    },
+    {
+      "path": "sql/07_lesson6_segmentation.sql",
+      "bytes": 4463,
+      "sha256": "7b2ca65b4bb5239b877ab5659eb85ea6069d5bcd2c2749647917dacf27ae4287"
+    },
+    {
+      "path": "sql/07b_lesson6_export_once.sql",
+      "bytes": 1176,
+      "sha256": "71275fccb4368c5c97571c9ff19a1667b2292f9119d30396b012cc638516aaa4"
+    },
+    {
+      "path": "sql/08_lesson7_model_samples.sql",
+      "bytes": 4214,
+      "sha256": "a495c62e27e9452e15466d9a9762b4b9d4043f558460ab93418d3c0a9f7d3c8a"
+    },
+    {
+      "path": "sql/08b_lesson7_export_once.sql",
+      "bytes": 762,
+      "sha256": "63db1545bca43c714dabe79863ed26b1ee43721532aceba5d123231b089135ea"
+    },
+    {
+      "path": "src/build_operations_deliverables.py",
+      "bytes": 23817,
+      "sha256": "7addd54694a582dccc4587f605b8951a6574767047035216604323bae1f67e8a"
+    },
+    {
+      "path": "src/finalize_operations_project.py",
+      "bytes": 13026,
+      "sha256": "3a628cb9cd2d934a0c7e8b4b5ef22ae0582d9c6fbe21ee483bc8591c3a17a2c7"
+    },
+    {
+      "path": "src/lesson4_behavior_report.py",
+      "bytes": 7762,
+      "sha256": "b91f64535fa15ff6f2d02a58c7b167c9cbb67c7e3f0461d5f7fac8a36c097e0e"
+    },
+    {
+      "path": "src/lesson5_verify_features.py",
+      "bytes": 6575,
+      "sha256": "12a72f23cd65c33ef4d3bff0abfe0b55b3bec8f8e384b00997c348a32ddaa2bb"
+    },
+    {
+      "path": "src/lesson6_segment_report.py",
+      "bytes": 8553,
+      "sha256": "a6d72f3427186bbfb79025f0d318165c583ed2f8f1099584b8ede4c60052a09c"
+    },
+    {
+      "path": "src/lesson7_prepare_model_data.py",
+      "bytes": 6479,
+      "sha256": "cbd7bfc6aa26e0cb61d67ecb9896099f3d71c29bc6c6d400c68247cfbf9b9f33"
+    }
+  ],
+  "raw_data_included": false,
+  "user_level_records_included": false,
+  "resume_included": false
+}

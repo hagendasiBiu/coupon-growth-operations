@@ -1,0 +1,68 @@
+[
+  {
+    "dataset": "o2o",
+    "file": "data\\raw\\o2o\\ccf_offline_stage1_train.csv",
+    "rows": 1754884,
+    "header": [
+      "User_id",
+      "Merchant_id",
+      "Coupon_id",
+      "Discount_rate",
+      "Distance",
+      "Date_received",
+      "Date"
+    ],
+    "first_row": [
+      "1439408",
+      "2632",
+      "null",
+      "null",
+      "0",
+      "null",
+      "20160217"
+    ],
+    "field_counts": {
+      "7": 1754884
+    },
+    "bytes": 71647992,
+    "sha256": "85ed49fd9873abebaef01a608defed667a3a2325e5c967fa25f4e9dc4b83f986"
+  },
+  {
+    "dataset": "hillstrom",
+    "file": "data\\raw\\hillstrom\\hillstrom.csv",
+    "rows": 64000,
+    "header": [
+      "recency",
+      "history_segment",
+      "history",
+      "mens",
+      "womens",
+      "zip_code",
+      "newbie",
+      "channel",
+      "segment",
+      "visit",
+      "conversion",
+      "spend"
+    ],
+    "first_row": [
+      "10",
+      "2) $100 - $200",
+      "142.44",
+      "1",
+      "0",
+      "Surburban",
+      "0",
+      "Phone",
+      "Womens E-Mail",
+      "0",
+      "0",
+      "0"
+    ],
+    "field_counts": {
+      "12": 64000
+    },
+    "bytes": 3964977,
+    "sha256": "0e5893329d8b93cefecc571777672028290ab69865718020c78c7284f291aece"
+  }
+]

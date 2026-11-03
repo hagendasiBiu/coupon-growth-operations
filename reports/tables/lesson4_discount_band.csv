@@ -1,0 +1,6 @@
+﻿dimension,bucket,receipts,redemptions,rate_pct
+discount_band,01_0_to_10pct,500799,24260,4.8443
+discount_band,02_10_to_20pct,367701,23773,6.4653
+discount_band,03_20_to_30pct,134969,12581,9.3214
+discount_band,04_30_to_50pct,49670,3773,7.5961
+discount_band,05_over_50pct,143,8,5.5944

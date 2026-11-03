@@ -1,0 +1,7 @@
+{
+  "counts_and_averages_verified_against_file": true,
+  "full_query_seconds": 172.344,
+  "redemption_rate_pct": 6.1137,
+  "user_redemption_rate_pct": 7.8471,
+  "note": "Final percentage expression checked separately using observed MySQL aggregate counts; saved SQL uses 100.00000000 to avoid intermediate division rounding."
+}

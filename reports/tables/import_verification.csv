@@ -1,0 +1,3 @@
+dataset,expected_rows,imported_rows,skipped,warnings
+o2o_offline_raw,1754884,1754884,0,0
+hillstrom_raw,64000,64000,0,0

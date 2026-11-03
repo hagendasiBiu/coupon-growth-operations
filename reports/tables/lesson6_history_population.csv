@@ -1,0 +1,6 @@
+﻿segment,history_users
+01_sparse_history,324894
+10_active_high_response,1310
+11_active_low_response,3664
+20_less_active_high_response,8016
+21_less_active_low_response,54859

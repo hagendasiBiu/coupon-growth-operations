@@ -1,0 +1,5 @@
+﻿config,users,no_history_users,sparse_history_users,active_high_response_users,changed_users
+baseline,148439,87620,45482,938,0
+min_mature_5,148439,87620,54724,495,9242
+min_rate_20pct,148439,87620,45482,789,601
+min_recent_3,148439,87620,45482,530,1529

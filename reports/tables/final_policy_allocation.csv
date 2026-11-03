@@ -1,0 +1,7 @@
+﻿segment,candidate_users,selected_users,observed_redemptions
+00_no_history,30335,1500,69
+01_sparse_history,31989,1500,260
+10_active_high_response,1946,1946,398
+11_active_low_response,3356,3356,218
+20_less_active_high_response,1680,1680,181
+21_less_active_low_response,6951,18,1

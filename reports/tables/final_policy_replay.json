@@ -1,0 +1,18 @@
+{
+  "candidate_users": 76257,
+  "population_first_coupon_redemptions": 4484,
+  "capacity": 10000,
+  "policy_observed_redemptions": 1127,
+  "random_expected_redemptions": 588.0115923784047,
+  "policy_observed_rate": 0.1127,
+  "random_expected_rate": 0.05880115923784046,
+  "coverage_difference": 538.9884076215953,
+  "relative_coverage_difference": 0.9166288804638714,
+  "random_draws": 200,
+  "random_draw_mean": 587.38,
+  "random_draw_p025": 545.0,
+  "random_draw_p975": 633.025,
+  "label_flip_selection_invariance": "passed",
+  "causal_claim": false,
+  "new_campaign_effect_identified": false
+}

@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "all_model_records_and_fields_match_original_csv": true,
+  "cutoff_checks": [
+    {
+      "feature_asof": "2016-03-01",
+      "target_records": 11926,
+      "future_information_removal_invariance": "passed"
+    },
+    {
+      "feature_asof": "2016-04-01",
+      "target_records": 58878,
+      "future_information_removal_invariance": "passed"
+    },
+    {
+      "feature_asof": "2016-05-01",
+      "target_records": 53727,
+      "future_information_removal_invariance": "passed"
+    },
+    {
+      "feature_asof": "2016-06-01",
+      "target_records": 90965,
+      "future_information_removal_invariance": "passed"
+    }
+  ],
+  "time_label_gap_checks": "passed",
+  "splits": [
+    {
+      "split": "train",
+      "records": 70804,
+      "users": 61416,
+      "first_received": "2016-03-01",
+      "last_received": "2016-04-15",
+      "last_label_observation_day": "2016-04-30"
+    },
+    {
+      "split": "validation",
+      "records": 53727,
+      "users": 42635,
+      "first_received": "2016-05-01",
+      "last_received": "2016-05-15",
+      "last_label_observation_day": "2016-05-30"
+    },
+    {
+      "split": "test",
+      "records": 90965,
+      "users": 76257,
+      "first_received": "2016-06-01",
+      "last_received": "2016-06-15",
+      "last_label_observation_day": "2016-06-30"
+    }
+  ],
+  "raw_sha256": "85ed49fd9873abebaef01a608defed667a3a2325e5c967fa25f4e9dc4b83f986",
+  "sql_export_sha256": "e4918c664af7ffc5053c1d0732c151289dfb45cb7f5551472cfac25173009813",
+  "processed_csv_sha256": "dc498b1c509ff50216a970504c2a0f7ac28f43457c2efcac752520f6e7748035"
+}

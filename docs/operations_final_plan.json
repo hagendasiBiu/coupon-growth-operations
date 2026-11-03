@@ -1,0 +1,18 @@
+{
+  "scope": "运营分析与规则策略，取消后续模型评估作为必做项",
+  "ui_automation": false,
+  "mysql_mcp_required": false,
+  "policy_fixed_before_reading_june_policy_results": true,
+  "candidate_population": "2016-06-01至06-15实际领券用户，每人取首条领券记录，历史画像冻结06-01",
+  "capacity": 10000,
+  "allocation": {"sufficient_history": 0.70, "sparse_history": 0.15, "no_observed_history": 0.15},
+  "group_thresholds": {"min_mature_receipts": 3, "active_recent30": 2, "high_historical_rate": 0.10},
+  "priority": ["10_active_high_response", "20_less_active_high_response", "11_active_low_response", "21_less_active_low_response", "01_sparse_history", "00_no_history"],
+  "within_group_order": ["hist_mature_redemption_rate DESC", "recent30_receipts DESC", "days_since_last_receipt ASC", "sha256(user_id|42) ASC"],
+  "fallback": "如某类不足配额，按预设优先级从未入选用户中补齐，不查看结果标签",
+  "random_comparison": {"draws": 200, "seed": 42, "primary_reference": "exact expected coverage under uniform sampling without replacement"},
+  "historical_replay_limit": "候选为事后可见的实际领券样本；结果仅为已观测核销覆盖，无法估计新增投放或补贴的因果效果",
+  "cost_assumptions": {"contact_cost_per_user_cny": 0.20, "coupon_cost_per_observed_redemption_cny": 5.0, "contribution_per_incremental_order_cny": 30.0},
+  "incremental_share_scenarios": [0.0, 0.1, 0.3, 0.5, 1.0],
+  "optional_appendix": "Hillstrom独立邮件随机实验，仅做组间平均效果，不训练Uplift模型，不与O2O合并"
+}

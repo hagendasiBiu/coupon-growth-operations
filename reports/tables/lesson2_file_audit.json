@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "rows": 1754884,
+    "coupon_receipts": 1053282,
+    "mature_receipts": 1053282,
+    "threshold_discount": 1020010,
+    "negative_gap": 0,
+    "redeemed_15d": 64395,
+    "mature_redeemed_15d": 64395,
+    "exact_repeat_rows": 37893,
+    "rate_discount": 33272
+  },
+  "date_ranges": {
+    "Date_received": [
+      "20160101",
+      "20160615"
+    ],
+    "Date": [
+      "20160101",
+      "20160630"
+    ]
+  },
+  "observation_end_assumption": "2016-06-30, aligned to observed latest transaction; subject to source coverage limitation"
+}
